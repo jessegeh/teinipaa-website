@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import fire from '../../fire';
 
-import './guestbook.styles.scss';
+import '../../sass/main.scss';
 
 class GuestBook extends Component {
     constructor(props) {
@@ -25,12 +25,12 @@ class GuestBook extends Component {
     }
     render() {
         return (
-            <div>
+            <div className="guestbook">
                 <h2>LÄHETÄ TERVEISIÄ TEINI-PÄÄLLE!</h2>
                 <form onSubmit={this.addMessage.bind(this)}>
                     <input className='form' type="text" ref={el => this.inputEl = el} />
-                    <div className="container">
-                        <input className="send" type="submit" value="Lähetä" />
+                    <div className="container container__guestbook">
+                        <button className="btn btn__send" type="submit">LÄHETÄ</button>
                     </div>
                     <div className="greetings"></div>
                     <ul>

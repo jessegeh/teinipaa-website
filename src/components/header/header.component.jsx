@@ -3,21 +3,24 @@ import { Link } from 'react-router-dom';
 
 import Logo from '../../assets/cassette.jsx';
 
-import './header.styles.scss';
+import '../../sass/main.scss';
 
 const Header = () => (
     <div className='header'>
-        <Link className='logo-container' to="/">
+        <Link className='header header__logo-container' to="/">
             <Logo className='logo' />
         </Link>
-        <div className='options'>
-            <Link className='option' to='/zine'>
+        <div className='header header__options'>
+            <Link className='header header__options header__options--option' to='/'>
+                ALKUUN
+            </Link>
+            <Link className='header header__options header__options--option' to='/zine'>
                 TEINIZINE
             </Link>
-            <Link className='option' to='/vieraskirja'>
+            <Link className='header header__options header__options--option' to='/vieraskirja'>
                 VIERASKIRJA
             </Link>
-            <Link className='option' to='/about'>
+            <Link className='header header__options header__options--option' to='/about'>
                 LISÄTIETOA
             </Link>
         </div>
