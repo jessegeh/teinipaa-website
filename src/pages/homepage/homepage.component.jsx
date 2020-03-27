@@ -27,11 +27,16 @@ class HomePage extends React.Component {
                 <h1 className='title'>TERVETULOA TEINI-PÄÄN NETTISIVUILLE!</h1>
                 <p>OLET TEINI-PÄÄN FANI #: {this.state.count}</p>
                 <div className='container container__homepage'>
-                    <div className='container container__homepage container__homepage--columnone'>
-                        <Youtube />
+                    <div className="grid__cell 1/1 1/2--desk 1/2--lap">
+                        <div className='container container__homepage container__homepage--columnone'>
+                            <Youtube />
+                        </div>
                     </div>
-                    <div className='container container__homepage container__homepage--columntwo'>
-                        <Sidebar />
+                    <div className='mobile-space'></div>
+                    <div className="grid__cell 1/1 1/2--desk 1/2--lap">
+                        <div className='container container__homepage container__homepage--columntwo'>
+                            <Sidebar />
+                        </div>
                     </div>
                 </div>
                 <div className='footer'>

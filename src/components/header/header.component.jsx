@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Card from '../card/card.component';
 
 import Logo from '../../assets/cassette.jsx';
 
@@ -23,6 +24,7 @@ const Header = () => (
             <Link className='header header__options header__options--option' to='/about'>
                 LISÄTIETOA
             </Link>
+            <Card />
         </div>
     </div>
 );
