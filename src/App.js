@@ -8,11 +8,13 @@ import ZinePage from './pages/zinepage/zinepage.component';
 import About from './pages/about/about.component';
 import GuestBook from './pages/guestbook/guestbook.component';
 import Header from './components/header/header.component';
+import Toolbar from './components/toolbar/toolbar.component';
 
 function App() {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
+      <Toolbar />
       <Switch>
         <Route exact path='/' component={HomePage} />
         <Route path='/zine' component={ZinePage} />

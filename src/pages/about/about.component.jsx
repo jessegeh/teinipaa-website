@@ -3,7 +3,7 @@ import promo from '../../images/Teini-Pää1-kuvaaja-Jonne-Sippola.jpg'
 import '../../sass/main.scss';
 
 const About = () => (
-    <div>
+    <div className='wrapper'>
         <div className='container container__about'>
             <div className="grid__cell 1/1 1/3--desk 1/2--lap">
                 <div className="container container__about container__about--text">

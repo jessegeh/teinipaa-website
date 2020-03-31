@@ -23,7 +23,7 @@ class HomePage extends React.Component {
 
     render() {
         return (
-            <div className="wrapper">
+            <div className='wrapper'>
                 <h1 className='title'>TERVETULOA TEINI-PÄÄN NETTISIVUILLE!</h1>
                 <p>OLET TEINI-PÄÄN FANI #: {this.state.count}</p>
                 <div className='container container__homepage'>
@@ -41,10 +41,10 @@ class HomePage extends React.Component {
                 </div>
                 <div className='footer'>
                     <p>SEURAA TEINI-PÄÄTÄ:</p>
-                    <SocialIcon url="https://www.facebook.com/teinipaa/" />
-                    <SocialIcon url="https://www.instagram.com/teinipaa/" />
-                    <SocialIcon url="https://open.spotify.com/artist/2zxGggWSxfoWtprihkzo8Q?si=H4ist8ksTtKbNsG_H0VzEw" />
-                    <SocialIcon url="https://www.youtube.com/channel/UCgZNXTcd8ESJcUqpDcTMpww" />
+                        <SocialIcon className='social' url="https://www.facebook.com/teinipaa/" />
+                        <SocialIcon className='social' url="https://www.instagram.com/teinipaa/" />
+                        <SocialIcon className='social' url="https://open.spotify.com/artist/2zxGggWSxfoWtprihkzo8Q?si=H4ist8ksTtKbNsG_H0VzEw" />
+                        <SocialIcon className='social' url="https://www.youtube.com/channel/UCgZNXTcd8ESJcUqpDcTMpww" />
                 </div>
             </div>
         );
