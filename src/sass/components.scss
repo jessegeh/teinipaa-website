@@ -18,15 +18,6 @@
     }
   }
 
-  &__guestbook {
-    position: absolute;
-    top: 40%;
-    left: 23%;
-    margin-left: -79px;
-    margin-top: -40px;
-    width: 130px;
-    height: 40px;
-  }
   &__about {
     &--text {
       border: solid;
@@ -34,6 +25,8 @@
       justify-content: center;
       text-align: justify;
       padding: 5px;
+      max-width: 100%;
+      max-height: 100%;
 
       @media screen and (max-width: 800px) {
         justify-content: left;
@@ -57,15 +50,9 @@
   height: 40px;
   text-align: center;
   width: 130px;
-  margin-left: 300px;
   border-radius: 40px;
   font-size: 17px;
   font-family: 'Courier';
-
-  @media screen and (max-width: 800px) {
-    margin-left: 50px;
-    margin-top: 80px;
-  }
 
   &__send {
     background: black;
@@ -97,7 +84,7 @@
 
 .greetings {
   border: solid;
-  margin-top: 70px;
+  // margin-top: 70px;
   height: 450px;
   overflow-x: scroll;
 
@@ -186,13 +173,8 @@
 
 .promo {
   border: solid;
-  max-width: 920px;
+  max-width: 100%;
   height: auto;
-
-  @media screen and (max-width: 800px) {
-    max-width: 300px;
-    height: auto;
-  }
 }
 
 .wrapper {
@@ -207,6 +189,7 @@
 }
 
 .promo-wrapper {
+  text-align: right;
   @media screen and (max-width: 800px) {
     padding-top: 5px;
   }
@@ -221,7 +204,6 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1;
 }
 
 .guestbook {
@@ -236,8 +218,9 @@
   top: 0;
   left: 0;
   width: 100%;
-  background: #ffb1b1;
+  background: #eb9c36;
   height: 56px;
+  z-index: 100;
 }
 
 .toolbar__navigation {

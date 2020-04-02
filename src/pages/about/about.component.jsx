@@ -36,10 +36,10 @@ const About = () => (
             <div className="grid__cell 1/1 2/3--desk 1/2--lap">
                 <div className="promo-wrapper">
                     <img className="promo" src={promo} alt="error" />
+                <p>Kuva: Jonne Sippola</p>
                 </div>
             </div>
             <div className='credit'>
-                <p>Kuva: Jonne Sippola</p>
             </div>
         </div>
     </div>

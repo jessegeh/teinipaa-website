@@ -15,7 +15,9 @@ class GuestBook extends Component {
         messagesRef.on('child_added', snapshot => {
 
             let message = { text: snapshot.val(), id: snapshot.key };
-            this.setState({ messages: [message].concat(this.state.messages) });
+            this.setState(prevState => ({
+                messages: [message].concat(prevState.messages),
+              }));
         })
     }
     addMessage(e) {
@@ -33,9 +35,11 @@ class GuestBook extends Component {
                         <div className="grid__cell 1/1 1/2--desk 1/2--lap">
                             <div className="guestbook guestbook__columnone">
                                 <form onSubmit={this.addMessage.bind(this)}>
-                                    <input className='form' type="text" ref={el => this.inputEl = el} />
-                                    <div className="container container__guestbook">
-                                        <button className="btn btn__send" type="submit">LÄHETÄ</button>
+                                    <div className="guestbook guestbook__form">
+                                        <input className='form' type="text" ref={el => this.inputEl = el} />
+                                        <div className="container container__guestbook">
+                                            <button className="btn btn__send" type="submit">LÄHETÄ</button>
+                                        </div>
                                     </div>
                                     <div className="greetings">
                                         <ul>

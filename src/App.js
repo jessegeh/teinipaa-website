@@ -35,7 +35,7 @@ class App extends React.Component {
     return (
       <div style={{ height: '100%' }}>
         <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
-        <Sidedrawer show={this.state.sidedrawerOpen}/>
+        <Sidedrawer drawerClickHandler={this.drawerToggleClickHandler} show={this.state.sidedrawerOpen}/>
         {backdrop}
         <Switch>
           <Route exact path='/' component={HomePage} />
