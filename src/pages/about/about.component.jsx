@@ -1,5 +1,5 @@
 import React from 'react';
-import promo from '../../images/Teini-Pää1-kuvaaja-Jonne-Sippola.jpg'
+import promo from '../../images/teinipää_bändikuvat-iso-2.jpg';
 import '../../sass/main.scss';
 
 const About = () => (

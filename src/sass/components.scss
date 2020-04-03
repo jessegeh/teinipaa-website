@@ -3,18 +3,10 @@
     &--columnone {
       border: solid;
       padding: 10px;
-
-      //   @media screen and (max-width: 800px) {
-      //     border: none;
-      //   }
     }
     &--columntwo {
       border: solid;
       padding: 10px;
-
-      //   @media screen and (max-width: 800px) {
-      //     border: none;
-      //   }
     }
   }
 
@@ -338,4 +330,25 @@
   z-index: 100;
   top: 0;
   left: 0;
+}
+
+.zine-wrapper {
+  border: solid;
+  padding: 5px;
+
+  &__multimedia {
+    padding: 10px;
+  }
+}
+
+.intro {
+  font-size: 17px;
+}
+
+.interview-link {
+  text-decoration: underline;
+
+  &:hover {
+    color: orange;
+  }
 }
