@@ -384,15 +384,15 @@ const ZinePage = () => (
             </div>
             <div className="space"></div>
             <div className="promo-wrapper">
-                <img className="promo" src="https://scontent-hel2-1.xx.fbcdn.net/v/t1.0-9/s960x960/70640558_2759182090759246_996675108388995072_o.jpg?_nc_cat=104&_nc_sid=b386c4&_nc_ohc=JgIyy7msKW4AX85oqCp&_nc_ht=scontent-hel2-1.xx&_nc_tp=7&oh=9838ef2aba085155d54ab6b61589c7ba&oe=5EAA986B" alt="error" />
+                <img className="promo" src="https://scontent-hel2-1.xx.fbcdn.net/v/t1.0-9/p720x720/79311416_2598226660213511_2832009531272200192_o.jpg?_nc_cat=103&_nc_sid=b386c4&_nc_ohc=1pA2opPGn4UAX-m4yN3&_nc_ht=scontent-hel2-1.xx&_nc_tp=6&oh=17edd0eb0ae504b94f7216046c9af3e9&oe=5EE958CD" alt="error" />
             </div>
             <div className="space"></div>
             <div className="promo-wrapper">
-                <img className="promo" src="https://scontent-hel2-1.xx.fbcdn.net/v/t1.0-9/s960x960/74599530_1396451783842831_4649553662744461312_o.jpg?_nc_cat=104&_nc_sid=b386c4&_nc_ohc=aF2MQkZPXZQAX9pV0El&_nc_ht=scontent-hel2-1.xx&_nc_tp=7&oh=fdf8752cbe69752f921bdc6a45099ec0&oe=5EAC5155" alt="error" />
+                <img className="promo" src="https://scontent-hel2-1.xx.fbcdn.net/v/t1.0-9/s960x960/74599530_1396451783842831_4649553662744461312_o.jpg?_nc_cat=104&_nc_sid=b386c4&_nc_ohc=k2D-6xbW1BAAX9CI8L-&_nc_ht=scontent-hel2-1.xx&_nc_tp=7&oh=ce7ea6a51f220bb574f31ae64667a8b7&oe=5EE7A4D5" alt="error" />
             </div>
             <div className="space"></div>
             <div className="promo-wrapper">
-                <img className="promo" src="https://scontent-hel2-1.xx.fbcdn.net/v/t1.0-9/p720x720/79311416_2598226660213511_2832009531272200192_o.jpg?_nc_cat=103&_nc_sid=b386c4&_nc_ohc=LhOKQfgIv0IAX9zYfkq&_nc_ht=scontent-hel2-1.xx&_nc_tp=6&oh=cd481f6145fb0e4465cb476fd8b71c3a&oe=5EAE054D" alt="error" />
+                <img className="promo" src="https://scontent-hel2-1.xx.fbcdn.net/v/t1.0-9/s960x960/70640558_2759182090759246_996675108388995072_o.jpg?_nc_cat=104&_nc_sid=b386c4&_nc_ohc=sOlfmVP8LjQAX-n5ujb&_nc_ht=scontent-hel2-1.xx&_nc_tp=7&oh=e6f18a58977eed9a080c932dd7765ade&oe=5EE9E06B" alt="error" />
             </div>
             <div className="space"></div>
             <div className='zine-wrapper zine-wrapper__multimedia'>

@@ -10,7 +10,7 @@ function Sidebar() {
                     height='100%'
                     width='100%'
                     className='react-player'
-                    url='https://youtu.be/WIo32Bk3Cn4'
+                    url='https://youtu.be/SxZ1Obfk_nU'
                 />
             </div>
         </div>
