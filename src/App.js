@@ -5,6 +5,7 @@ import './App.css';
 
 import HomePage from './pages/homepage/homepage.component';
 import ZinePage from './pages/zinepage/zinepage.component';
+import ZinePageTwo from './pages/zinepage/zinepagetwo.component';
 import About from './pages/about/about.component';
 import GuestBook from './pages/guestbook/guestbook.component';
 import Toolbar from './components/toolbar/toolbar.component';
@@ -39,7 +40,8 @@ class App extends React.Component {
         {backdrop}
         <Switch>
           <Route exact path='/' component={HomePage} />
-          <Route path='/zine' component={ZinePage} />
+          <Route path='/zine/' component={ZinePageTwo} />
+          <Route pat='/zine/2' component={ZinePage} />
           <Route path='/about' component={About} />
           <Route path='/vieraskirja' component={GuestBook} />
         </Switch>
