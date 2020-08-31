@@ -8,7 +8,7 @@ const ZinePageTwo = () => (
             <div className='zine-wrapper'>
                 <h1 className='title'>TERVETULOA TEINI-PÄÄN ZINEN PARIIN!</h1>
                 <div className='intro'>
-                    <p><i>Täällä julkaistaan haastatteluja, artikkeleita ja muuta zinemäistä sisältöä! Zinen toisessa jutussa päästään kuulemaan Lucya! Lucy on mississipiläinen zineistään tuttu punklaulaja. Lucy laulaa Big Clown -nimisessä bändissä ja Teini-Pään Jesse päättikin haastatella häntä sekä zineistä, että bändeistä ja vähän Lucyn Suomivierailusta! Teinizinessä on aiemmin haastateltu Tvärtomia ja tuon jutun pääsee lukemaan <a className='interview-link' href='https://teinipaa.com/zine/2'>täältä</a>.
+                    <p><i>Täällä julkaistaan haastatteluja, artikkeleita ja muuta zinemäistä sisältöä! Zinen toisessa jutussa päästään kuulemaan Lucya! Lucy on mississipiläinen zineistään tuttu punklaulaja. Lucy laulaa <b>Big Clown</b> -nimisessä bändissä ja <b>Teini-Pään Jesse</b> päättikin haastatella häntä sekä zineistä, että bändeistä ja vähän Lucyn Suomivierailusta! Teinizinessä on aiemmin haastateltu <b>Tvärtomia</b> ja tuon jutun pääsee lukemaan <a className='interview-link' href='https://teinipaa.com/arkisto'>täältä</a>.
                 </i></p></div>
                 <p>
                     <b>So you had a new zine that came out like yesterday, right?</b>
@@ -89,7 +89,7 @@ const ZinePageTwo = () => (
                     Ah, Jesse I’m so glad you asked me this question. *laughs* Here in America I tell people all the time what my favorite Finnish bands are and they don’t give a fuck, Jesse! Um, I really... let’s see. It’s funny cause I also kind of saw a lot of American bands while I was in Finland. I saw Timmy’s Organism and I guess maybe just Timmy’s Organism.
                 <br />
                     <br />
-                    You were like one of 20 people who saw Timmy’s Organism in Helsinki *laughs*
+                    <b>You were like one of 20 people who saw Timmy’s Organism in Helsinki *laughs*</b>
                 <br />
                     <br />
                     I felt like that show was popping but I think it’s just because I knew Pete and Pete knew everyone there.
@@ -99,9 +99,6 @@ const ZinePageTwo = () => (
                 <br />
                     <br />
                     Right. I really loved seeing Acid Runs. The couple of times I saw them they were really good. I loved... Here, let’s go and see what records I have that will help me jog my memory. I just had to cut up my Teen Wolf Records shirt which is a big bummer because if you ever just try and cut up a shirt and then you ruin it that’s what happened with this shirt. I was so sad about it. Let’s see, I really liked seeing Acid Runs. I also really liked seeing HÄN one time. I’m sure I’m saying that wrong.
-                <br />
-                    <br />
-                    <b>Eni:</b> Joel on tehny demoja tosiaan ja niistä lähdetään. musta se on ollu palkitsevaa että alusta asti ollaan ryhdytty nopeesti soittamaan niitä yhteen, vaikka se olis ensin pitkään vaan sointukierron opettelua ja sellasta
                 <br />
                     <br />
                     <b>No, that was perfect!</b>
@@ -179,7 +176,7 @@ const ZinePageTwo = () => (
                 <b>Yeah, I guess so. Oh, the pun name reminded me. I feel like it’s somewhat common in Finland, I don’t know if you noticed but some Finnish bands... we’ll I guess cause they’re Finnish you wouldn’t maybe notice it as much but like Finnish bands a lot of bands are like based on a pun like Tamara Luonto.</b>
                 <br />
                     <br />
-                    <b>So that’s the one that was explained to me one time.</b>
+                    So that’s the one that was explained to me one time.
                 <br />
                     <br />
                     <b>Oh yeah.</b>
@@ -191,7 +188,7 @@ const ZinePageTwo = () => (
                     <b>Yeah, and Salla had a band called Nothing Else Mothers as well. *laughs*</b>
                 <br />
                     <br />
-                    Well now she’s in a band that’s like kind of a play on destiny’s child.
+                    Well now she’s in a band that’s like kind of a play on Destiny’s Child.
                 <br />
                     <br />
                     <b>Oh, she’s not in that band anymore!</b>
@@ -200,7 +197,7 @@ const ZinePageTwo = () => (
                     Oh, rip.
                 <br />
                     <br />
-                    But yeah, that’s true. She’s like in all the pun bands I feel.
+                    <b>But yeah, that’s true. She’s like in all the pun bands I feel.</b>
                 <br />
                     <br />
                     Yeah!
@@ -221,7 +218,7 @@ const ZinePageTwo = () => (
                     ***
                     <br/>
                     <br/>
-                    Lucyn zinesivuille pääsee tutustumaan <a className='interview-link' href='lucyisadora.bandcamp.com'>täältä</a> ja Big Clownia kuulemaan <a className='interview-link' href='https://bigclown.bandcamp.com/album/big-clown-big-mad'>täältä</a>
+                    Lucyn zinesivuille pääsee tutustumaan <a className='interview-link' href='https://lucyisadora.tumblr.com/'>täältä</a> ja Big Clownia kuulemaan <a className='interview-link' href='https://bigclown.bandcamp.com/album/big-clown-big-mad'>täältä</a>
                 </p>
             </div>
         </div>

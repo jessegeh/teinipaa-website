@@ -41,7 +41,7 @@ class App extends React.Component {
         <Switch>
           <Route exact path='/' component={HomePage} />
           <Route path='/zine/' component={ZinePageTwo} />
-          <Route pat='/zine/2' component={ZinePage} />
+          <Route path='/arkisto' component={ZinePage} />
           <Route path='/about' component={About} />
           <Route path='/vieraskirja' component={GuestBook} />
         </Switch>

@@ -60,7 +60,7 @@ class GuestBook extends Component {
                                         className='react-player'
                                         width='100%'
                                         height='100%'
-                                        url="https://youtu.be/pYVO7BZtLNA" />
+                                        url="https://youtu.be/Y7Gy_IdVOuM" />
                                 </div>
                                 <div className="space"></div>
                                 <div className='player-wrapper'>

@@ -10,10 +10,14 @@ const About = () => (
                     <p><b>TEINI-PÄÄ</b> on vuonna 2018 perustettu nössöpunk & teenage dream -bändi.
                 Bändi julkaisi ensimmäisen tuplasinkkudemonsa jouluaattona 2018 ja lähti sen jälkeen keikkailemaan ympäri Suomea.
                 Bändin debyytti-EP <b>"Täynnä kysymyksiä"</b> julkaistiin syksyllä 2019.
-                Teini-Pää on äänittänyt uuden seiskatuumaisen ja se näkee päivänvalon kesällä 2020!
-                Maistiasia tuolta levyltä tulee kuitenkin nettiin jo hyvin pian! Uu, jee! <br />
+                Teini-Pää on äänittänyt uuden seiskatuumaisen ja se julkaistiin 12.6.2020!
+                Levyä saa levykaupoista ympäri maan ja suoraan bändiltä! Uu, jee! <br />
                         <br />
                         <b>Menneet keikat:</b> <br /><br />
+                        <b>29.8.2020</b> Kaivuri Pub, Kuopio <br />
+                        <b>28.8.2020</b> Terassi Pub Yläkerta, Tampere <br />
+                        <b>14.8.2020</b> Bar Loose, Helsinki <br />
+                        <b>11.7.2020</b> Ravintola La Barre, Joensuu <br />
                         <b>25.1.2020</b> Lepakkomies, Helsinki <br />
                         <b>3.1.2020</b> Bar Loose, Helsinki <br />
                         <b>31.12.2019</b> Goosebumbs Records, Helsinki <br />
@@ -29,7 +33,7 @@ const About = () => (
                         <b>16.3.2019</b> Oranssi, Helsinki <br />
                         <br />
                         <b>Tulevat keikat:</b> <br /> <br />
-                Kaikki tulevat keikat peruttu tai siirtymässä uuteen ajankohtaan. Stay safe!
+                        <b>10.10.2020</b> UUS HOI SIE, Lappeenranta <br />
             </p>
                 </div>
             </div>
